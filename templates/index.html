@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="alert alert-info" style="margin-top: 250px;">
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h2>Upload an Image or Video for Face Detection</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="media">Select Image or Video:</label>
+                <input type="file" class="form-control-file" id="media" name="media" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+</div>
+</div>
+{% endblock %}
