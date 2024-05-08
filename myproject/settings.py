@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1kpkexv09a3%qcdk&wo=w#vi!2yol1o4)2o7gcp79a23%+hdz+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['klassvoice.in','www.klassvoice.in']
 
 
 # Application definition
